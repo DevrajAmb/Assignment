@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: "Protest Strike", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.text h1{
+    font-size: 80px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.text p{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    color: white;
+    text-align: center;
+}
+
+.text p:hover{
+    color: #ffffff;
+}
+
+.text h1:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.box{
+    border: 1px solid white;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 50px;
+}
+
+.box:hover{
+    border: 1px solid white;
+
+}
+
+
+.container2{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.boxe1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-block: 10px;
+}
+ 
+.boxe1 h1{
+    font-size: 50px;
+    font-weight: 500;
+    color:  white;
+    
+}
+
+.boxe1 h1:hover{
+    color: white;
+}
+
+.list ol li{
+    font-size: 50px;
+
+}
+
+.list ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#first a:hover{
+    color: #676279;
+}
+#second a:hover{
+    color: #cbe7ff;
+}
+#third a:hover{
+    color: #233d83;
+}
+#fourth a:hover{
+    color: #80fddd;
+}
+#five a:hover{
+    color: #feccb4;
+}
+#six a:hover{
+    color: #ffff00;
+}
+#seven a:hover{
+color: #fe4f23;
+}
+#Eight a:hover{
+color: #387ed1;
+}
+#nine a:hover{
+color: #7cc110;
+}
+#ten a:hover{
+color: #ea067e;
+}
